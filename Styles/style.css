@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#signUp{
+    display: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card2{
+    display: none;
+}
+ #todo-page,#second{
+    display: none;
+ }  
+ #form2,#buttons,#output{
+    width: 90% !important;
+ }
